@@ -1,0 +1,46 @@
+body {
+  background-color: hsl(15 33% 80%);
+  color: hsl(15 33% 20%);
+  font-family: 'Courier New', Courier, monospace;
+}
+
+a {
+  color: hsl(15 33% 30%);
+}
+
+.recipes-nav {
+  list-style: none;
+  padding: 0;
+  margin-left: 1em;
+}
+
+.recipes-nav li::before {
+  content: ">>";
+  margin-right: 0.5em;
+}
+
+.recipes-nav li {
+  margin: 0.5em 0;
+}
+
+ol,
+ul {
+  margin-left: 10px;
+}
+
+li::before,
+li::marker {
+  color: hsl(15 33% 45%);
+}
+
+ol li::marker {
+  font-weight: bold;
+}
+
+.ingredient-list li {
+  margin: 0.25em 0;
+}
+
+.instruction-list li {
+  margin: 0.5em 0;
+}
