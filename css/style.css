@@ -10,6 +10,7 @@ a {
 
 li {
   margin: 0.25em 0;
+  padding-inline-start: 0.25em;
 }
 
 .recipes-nav {
