@@ -8,6 +8,10 @@ a {
   color: hsl(15 33% 30%);
 }
 
+li {
+  margin: 0.25em 0;
+}
+
 .recipes-nav {
   list-style: none;
   padding: 0;
@@ -37,10 +41,6 @@ ol li::marker {
   font-weight: bold;
 }
 
-.ingredient-list li {
-  margin: 0.25em 0;
-}
-
-.instruction-list li {
-  margin: 0.5em 0;
+img {
+  height: 300px;
 }
